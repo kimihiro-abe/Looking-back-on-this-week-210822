@@ -76,7 +76,6 @@
 <hr>
 
 <br>
-
 ## - チーム制作訓練での制作物紹介 -  
 
 ここからは、制作物の詳細について記載していきます。  
@@ -109,9 +108,9 @@
 チームの目指すシステムに必要あらば拡張も可能でした。  
 拡張したものは下記画像中でオレンジ色にて記載しています。  
 <br>
-<img src="" width="50%"><br>
-<img src="" width="50%"><br>
-<img src="" width="50%"><br>
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_01_property01_account.png" width="50%"><br>
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_01_property02_media.png" width="50%"><br>
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_01_property03_review.png" width="50%"><br>
 <br>
 
 ### - Top画面 -  
@@ -122,7 +121,7 @@
 　　「パッケージ画像」「あらすじ紹介」については著作権が絡んできますので、  
 　　「画像は無し」「あらすじにはモザイク」で対応しております。  
 <br>
-<img src="" width="50%">  
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_02_index.png" width="50%">  
 上記画像中「ランダムに表示」とあるものについては、  
 index.jspにアクセス毎にDBからデータを取得しランダム表示させています。  
 
