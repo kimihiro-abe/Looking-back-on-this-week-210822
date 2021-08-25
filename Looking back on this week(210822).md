@@ -142,6 +142,20 @@
 <img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_01_property03_review.png" width="50%"><br>
 <br>
 
+### - 私がコードを書いた部分（servlet&JSP）-  
+エクリプス画面をスクリーンショットし、  
+記入を加えた画像資料を御用意致しました。  
+赤枠部分は全て私だけが作業した箇所、  
+青枠部分は仲間のヘルプに入った箇所となっています。  
+
+■servlet  
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_03_Projecy01%2B.png" width="50%"><br>
+<br>
+■JSP  
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_03_Projecy02%2B.png" width="50%"><br>
+
+<br>
+
 ### - Top画面 -  
 ここから実際に制作したサイトを  
 スクリーンショットに説明を加え解説していきます。  
