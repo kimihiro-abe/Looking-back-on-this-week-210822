@@ -197,6 +197,9 @@ index.jspにアクセス毎にDBからデータを取得しランダム表示さ
 ■user時のレビュー表示（おすすめレビューから作品詳細に飛んだ時）  
 <img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_04_review_02_user4%2B.png" width="50%"><br>
 <br>
+■退会、もしくは管理者にユーザー削除された後のレビュー表示  
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_04_review_02_user5%2B.png" width="50%"><br>
+<br>
 
 <br>
 <font color="DarkOrange">まだまだ、追記続きます。</font>
