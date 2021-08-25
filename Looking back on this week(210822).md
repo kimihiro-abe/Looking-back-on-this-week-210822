@@ -168,10 +168,31 @@
 <img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_02_index.png" width="50%">  
 上記画像中「ランダムに表示」とあるものについては、  
 index.jspにアクセス毎にDBからデータを取得しランダム表示させています。  
+<br>
 
+### - レビュー機能まわり -  
+制作したサイトの売りの機能「レビュー投稿」まわりを、    
+スクリーンショットメインで紹介していいきます。  
+<br>
+アカウントの権限判定やレビューのピックアップのされ方などで、  
+レビュー表示を少しずつ変えた凝ったものに仕上げました。   
+お手数ではございますが、画像をクリックし拡大して御覧ください。  
+<br>
+■guest時のレビュー表示  
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_04_review_01_guest%2B.png" width="50%"><br>
+<br>
+■user時のレビュー表示（ログイン後、レビュー投稿前）  
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_04_review_02_user1%2B.png" width="50%"><br>
+<br>
+■user時のレビュー表示（レビュー投稿直後）  
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_04_review_02_user2%2B.png" width="50%"><br>
+<br>
+■user時のレビュー表示（レビューを管理人に削除された時の表示）  
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_04_review_02_user3%2B.png" width="50%"><br>
+<br>
+■user時のレビュー表示（おすすめレビューから作品詳細に飛んだ時）  
+<img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_04_review_02_user4%2B.png" width="50%"><br>
+<br>
 
-
-
-
-
+<br>
 <font color="DarkOrange">まだまだ、追記続きます。</font>
