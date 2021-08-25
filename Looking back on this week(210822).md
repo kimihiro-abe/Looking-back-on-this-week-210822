@@ -178,6 +178,10 @@ index.jspにアクセス毎にDBからデータを取得しランダム表示さ
 レビュー表示を少しずつ変えた凝ったものに仕上げました。   
 お手数ではございますが、画像をクリックし拡大して御覧ください。  
 <br>
+　　※なお、著作権の問題があるので、パッケージ画像は表示させず、  
+　　　あらすじもボカシを入れてあります。  
+<br>
+
 ■guest時のレビュー表示  
 <img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_04_review_01_guest%2B.png" width="50%"><br>
 <br>
