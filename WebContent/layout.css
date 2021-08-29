@@ -1,0 +1,188 @@
+/*参考配色HP→ビレッジマンズストア　https://villagemansstore.com/
+→フィアーアンドロージングインラスベガス　http://www.lasvegas-jp.com/
+*/
+@charset "UTF-8";
+
+
+header{
+	background-color:#666666;
+	color:white;
+		/*ブロックを中央に配置*/
+	margin-left: auto;
+    margin-right: auto;
+    /*ブロックの幅を指定*/
+	width:900px;
+
+	font-family: 'Kiwi Maru', serif;
+
+}
+
+/*現段階では使ってないレイアウト*/
+nav{
+	background-color:#000000;
+font-size:1.25rem;
+margin-left:36px;
+list-style:none;
+display:flex;
+
+
+}
+/*現段階では使ってないレイアウト*/
+aside{
+	background-color:#000000;
+}
+
+
+
+
+
+/*プルタウンメニューレイアウト*/
+
+.menu-box {
+  border: solid 1px #c0c0c0;
+}
+
+.menu-box .menu-label-title {
+  display: block;
+  padding: 20px 25px;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-box .menu-label-title:hover {
+  background-color: #8a8a8a;
+}
+
+.menu-box .menu-title {
+  display: block;
+  padding-right: 50px;
+}
+
+.menu-box .menu-label-title span:nth-child(2),
+.menu-box .menu-label-title span:nth-child(3) {
+  display: block;
+  width: 16px;
+  border-bottom: solid 1px #c0c0c0;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.menu-box .menu-label-title span:nth-child(2) {
+  transform: rotate(45deg);
+  right: 36px;
+}
+
+.menu-box .menu-label-title span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.menu-box .menu-text {
+  display: none;
+  padding: 20px 0;
+  margin: 0 25px;
+  border-top: dotted 1px #c0c0c0;
+}
+
+/* 折り畳みメニューを追加する場合 */
+.menu-box #check-box {
+  display: none;
+}
+
+.menu-box #check-box:checked ~ .menu-text {
+  display: block;
+}
+
+.menu-box #check-box:checked ~ .menu-label-title span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+.menu-box #check-box:checked ~ .menu-label-title span:nth-child(3) {
+  transform: rotate(45deg);
+}
+/* ここまで */
+
+
+
+
+/* マウスポインターを重ねると、画像が半透明になる */
+tr.sample img:hover {
+   opacity: 0.6; /* 40％ほど透過させる */
+}
+th.sample img:hover {
+   opacity: 0.6; /* 40％ほど透過させる */
+}
+/* ここまで */
+
+
+
+
+
+
+main{
+	background-color:black;
+	/*メインブロックを中央に配置*/
+	margin-left: auto;
+    margin-right: auto;
+    /*メインブロックの幅を指定*/
+	width:900px;
+
+	font-family: 'Kiwi Maru', serif;
+
+	h4{
+	text-align: center;
+	}
+
+	p.result{vertical-align: middle;}
+}
+
+footer{
+
+	background-color:#666666;
+	color:white;
+	/*ブロックを中央に配置*/
+	margin-left: auto;
+    margin-right: auto;
+    /*ブロックの幅を指定*/
+	width:900px;
+
+	font-family: 'Kiwi Maru', serif;
+
+}
+
+body{
+	background-color:black;
+	color:white;
+}
+
+/*テーブル要素の設定*/
+table{background-color:#666666;
+	margin-left: auto;
+    margin-right: auto;
+    }
+th{
+	background-color:white;
+	padding:10px;
+	}
+
+tr{background-color:black;}
+
+
+/*疑似クラス カーソル*/
+/*未訪問*/
+a:link{color:#db7093;background:;}
+/*訪問済*/
+a:visited{color:#6495ed;background:;}
+/*クリック中*/
+a:active{color:;background:;}
+/*フォーカスされている*/
+a:focus{color:;background:;}
+/*特定の言語を指定した要素*/
+a:lang{color:;background:;}
+/*要素内の最初の子要素*/
+a:first_child{color:;background:;}
+/*カーソルがリンクの上に載っている状態*/
+a:hover{color:#6495ed;background:#666666;}
