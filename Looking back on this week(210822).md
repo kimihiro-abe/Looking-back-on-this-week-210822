@@ -159,9 +159,10 @@
 ### - コード作成以外の私の作業-  
 １，チームの制作スケジュール管理（工程表管理・タスク割り振り）  
 ２，仲間のコード作成のヘルプ  
-３，MySQLのsqlファイル雛形作りと管理の全て
-４，発表資料制作（仲間との共同）  
-５，3回あった発表の全てでプレゼンを担当  
+３，コードの動作テスト（自他ともに）  
+４，MySQLのsqlファイル雛形作りと管理の全て  
+５，発表資料制作（仲間との共同）  
+６，3回あった発表の全てでプレゼンを担当  
 
 <br>
 
@@ -177,6 +178,14 @@
 <img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_02_index.png" width="50%">  
 上記画像中「ランダムに表示」とあるものについては、  
 index.jspにアクセス毎にDBからデータを取得しランダム表示させています。  
+<br>
+■ Top画面に関係するコード部分 ■  
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/src/tool/DB_Filter.java">DB_Filter.java</a>
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/src/dao/MediaDAO.java">MediaDAO.java</a>
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/src/dao/ReviewDAO.java">ReviewDAO.java</a>
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/src/dao/MediaGenreDAO.java">MediaGenreDAO.java</a>
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/WebContent/index.jsp">index.jsp</a>
+
 <br>
 
 ### - レビュー機能まわり -  
@@ -208,6 +217,17 @@ index.jspにアクセス毎にDBからデータを取得しランダム表示さ
 <br>
 ■退会、もしくは管理者にユーザー削除された後のレビュー表示  
 <img src="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/GoGoSearch_image/GoGoSearch_04_review_02_user5%2B.png" width="50%"><br>
+<br>
+■ レビュー表示に関係するコード部分 ■  
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/src/searchMedia/CheckMediaAction.java">CheckMediaAction.java</a>
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/WebContent/searchMedia/dispMediaDetail.jsp">dispMediaDetail.jsp</a>
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/src/searchMedia/CheckMedia2Action.java">CheckMedia2Action.java</a>（おすすめレビューからの作品詳細＆レビュー表示時）
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/WebContent/searchMedia/dispMediaDetail2.jsp">dispMediaDetail2.jsp</a>（おすすめレビューからの作品詳細＆レビュー表示時）
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/src/dao/MediaDAO.java">MediaDAO.java</a>
+- <a href="https://github.com/kimihiro-abe/Looking-back-on-this-week-210822/blob/main/src/dao/ReviewDAO.java">ReviewDAO.java</a>
+
+
+
 <br>
 
 <br>
